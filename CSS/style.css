@@ -1,0 +1,143 @@
+.wrapper {
+    padding: 100px 350px 90px;
+}
+header {
+    background-image: url(../img/hero.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 80vh;
+}
+.top {
+    font-size: 24px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    padding-left: 45px;
+}
+h1 {
+    font-size: 68px;
+    margin-bottom: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+button {
+    color: white;
+    background-color: #DD9D4C;
+    padding: 15px;
+    width: 180px;
+    font-weight: bold;
+}
+
+/*メイン要素*/
+.content {
+    display: flex;
+    padding: 20px;
+}
+#main_top {
+    background-color: #F6F1ED;
+    background-size: cover;
+}
+section {
+    width: 420px;
+    margin-right: 140px;
+}
+section h2 {
+    font-size: 53px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+section p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.pro {
+    width: 560px;
+}
+.pro img {
+    width: 100%;
+}
+
+#main_middle {
+    background-color: #FCF8F5;
+    width: 100%;
+}
+.sentence {
+    margin-right: 10px;
+}
+.sentence h2 {
+    width: 350px;
+}
+.img {
+    width: 100%;
+}
+.img img {
+    margin-bottom: 15px;
+}
+.img section {
+    width: 145px;
+}
+.img section h3{
+    width: 200px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.img section p {
+    width: 300px;
+}
+
+#main_bottom {
+    background-color: #F6F1ED;
+}
+#main_bottom .content {
+    display: block;
+}
+#main_bottom .customer {
+    display: flex;
+    justify-content: space-between
+}
+.cust {
+    margin-right: 12px;
+    width: 380px;
+}
+.cust img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+h4 {
+    margin-bottom: 5px;
+}
+.cust p {
+    width: 400px;
+    font-size: 16px;
+}
+
+footer {
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-position: center bottom;
+    height: 80vh;
+    color: white;
+    padding-top: 80px;
+}
+footer .content {
+    display: block;
+}
+footer h2 {
+    width: 700px;
+    margin-bottom: 130px;
+}
+footer .info {
+    display: flex;
+}
+.inf {
+    margin-right: 40px;
+}
+.inf h4 {
+    width: 400px;
+    font-size: 22px;
+}
+.inf p {
+    font-weight: bold;
+}
